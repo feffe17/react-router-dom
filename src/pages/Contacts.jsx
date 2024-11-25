@@ -5,9 +5,9 @@ export default function () {
                 <h1>title</h1>
                 <nav>
                     <a href="/">Home</a>
-                    <a href="/About">About</a>
-                    <a href="/Books">Books</a>
-                    <a href="/Contacts">Contacts</a>
+                    <a href="/about">About</a>
+                    <a href="/books">Books</a>
+                    <a href="/contacts">Contacts</a>
                 </nav>
             </header>
             <main>
