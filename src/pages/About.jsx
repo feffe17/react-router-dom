@@ -1,14 +1,11 @@
+import Navbar from "../components/Mainmenu"
+
 export default function () {
     return (
         <>
             <header>
                 <h1>title</h1>
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/about">About</a>
-                    <a href="/books">Books</a>
-                    <a href="/contacts">Contacts</a>
-                </nav>
+                <Navbar />
             </header>
             <main>
                 <h2>About page</h2>
