@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from "./pages/About"
 import Books from "./pages/Books"
 import Contacts from "./pages/Contacts"
+import DefaultLayout from './pages/DefaultLayout'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route element={<DefaultLayout />} />
+          <Route index element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/books' element={<Books />} />
           <Route path='/contacts' element={<Contacts />} />
