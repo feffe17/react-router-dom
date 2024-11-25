@@ -11,10 +11,14 @@ export default function () {
                 </nav>
             </header>
             <main>
+                <h2>Books page</h2>
                 <div className="container">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis iste omnis, voluptatum fugit explicabo eos praesentium quae soluta reprehenderit dolore aut incidunt alias perferendis assumenda quos accusantium. Ut, delectus similique.
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat natus quibusdam nulla. Ipsum sunt repudiandae delectus hic praesentium sed harum aspernatur beatae consectetur suscipit eveniet earum, omnis doloremque sit libero.</p>
                 </div>
             </main>
+            <footer>
+                <p>Copiright at fede2024</p>
+            </footer>
         </>
     )
 }
